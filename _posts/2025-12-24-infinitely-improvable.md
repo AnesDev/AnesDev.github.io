@@ -31,7 +31,7 @@ Let $$ C_i $$ be a number that quantifies goodness of the essay corresponding to
 
 $$ C_i = f(\text{correctness}_i, \text{clarity}_i, \text{coherence}_i, \text{style}_i, \ldots) $$
 
-Now let $$ S $$ be the set of all possible values of $$ C_i $$, thus $$ S={C_1, C_2,\ldots, C_n} $$
+Now let $$ S $$ be the set of all possible values of $$ C_i $$, thus $$ S=\{C_1, C_2,\ldots, C_n\} $$
 
 If we literally interpret the words of the teachers, then the formalisation of the goal is basically finding $$ max(S) $$, However looking for the absolute maximum of $$ S $$ is **absurd!**
 
@@ -45,7 +45,7 @@ Yet the problem is not the _existence_ of $$ max(S) $$, but its _relevance_. Nea
 
 Now let $$ A $$ be set of all acceptable values of $$ C_i $$, therefore
 
-$$ A = { C_i \in S \mid C_i \ge C_{threshold} } $$
+$$ A = \{ C_i \in S \mid C_i \ge C_{threshold} \} $$
 
 So any essay that lies in $$ A $$ succeeds sufficiently in its goal of communication. But notice the words I just used, "**sufficiently**". Thus, the statement of the teacher "there is still room for improvement" becomes ambiguous. Because while technically true, one may always move closer to $$ max(S) $$, however for a student who is not being trained in stylistic writing or poetry, such refinements lie outside the stated objective of the task and silently shifts the goal from clear communication to the pursuit of an abstract optimum, a target that is neither defined nor pedagogically relevant.
 
