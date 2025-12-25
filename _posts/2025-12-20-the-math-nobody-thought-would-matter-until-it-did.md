@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Math Nobody Thought Would Matter—Until It Did
+title: The Math Nobody Thought Would Matter Until It Did
 date: 2025-12-20
 categories:
   - Mathematics
